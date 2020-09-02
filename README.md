@@ -1,3 +1,5 @@
+This project is deprecated.  Please see https://github.com/CiscoDevNet/meraki_cloud_simulator for a replacement tool.
+
 # Meraki Location Scanning Simulator
 
 The receiver is a simple Python Flask web server that receives the HTTP POST data from the Meraki Dashboard and plots that data in Google Maps.
@@ -19,3 +21,5 @@ Validate that the receiver is running and accessible by navigating in your brows
 
 
 Validate that the simulator is running at http://localhost:5002/go.
+
+In the URL field enter http://merakireceiver:5001 to have the simulator talk to the receiver.
